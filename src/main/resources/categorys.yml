@@ -1,0 +1,79 @@
+
+category1:
+  material_display: "PURPLE_STAINED_GLASS_PANE"
+  category_name: "ʙᴀꜱɪᴄ"
+  category_color: "&5&n" #use "&"
+  category_itemlore:
+    - "&7ʙᴀꜱɪᴄ enchants category"
+    - "&a40 xp"
+  cost-of-category: 40 #Use levels, but the equivalent in points will be removed.
+  rune:
+    material: "PAPER"
+    display-name: "&5&nʙᴀꜱɪᴄ ʀᴜɴᴇ"
+    lore:
+      - "&8- &7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ &8-"
+category2:
+  material_display: "YELLOW_STAINED_GLASS_PANE"
+  category_name: "ꜱɪᴍᴘʟᴇ"
+  category_color: "&e&n" #use "&"
+  category_itemlore:
+    - "&7ꜱɪᴍᴘʟᴇ enchants category"
+    - "&a50 xp"
+  cost-of-category: 50 #Use levels, but the equivalent in points will be removed.
+  rune:
+    material: "PAPER"
+    display-name: "&e&nꜱɪᴍᴘʟᴇ ʀᴜɴᴇ"
+    lore:
+      - "&8- &7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ &8-"
+category3:
+  material_display: "GREEN_STAINED_GLASS_PANE"
+  category_name: "ɪɴᴛᴇʀᴍᴇᴅɪᴀᴛᴇ"
+  category_color: "&a&n" #use "&"
+  category_itemlore:
+    - "&7ɪɴᴛᴇʀᴍᴇᴅɪᴀᴛᴇ enchants category"
+    - "&a60 xp"
+  cost-of-category: 60 #Use levels, but the equivalent in points will be removed.
+  rune:
+    material: "PAPER"
+    display-name: "&a&nɪɴᴛᴇʀᴍᴇᴅɪᴀᴛᴇ ʀᴜɴᴇ"
+    lore:
+      - "&8- &7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ &8-"
+category4:
+  material_display: "PINK_STAINED_GLASS_PANE"
+  category_name: "ᴀᴅᴠᴀɴᴄᴇᴅ"
+  category_color: "&c&n" #use "&"
+  category_itemlore:
+    - "&7ᴀᴅᴠᴀɴᴄᴇᴅ enchants category"
+    - "&a70 xp"
+  cost-of-category: 70 #Use levels, but the equivalent in points will be removed.
+  rune:
+    material: "PAPER"
+    display-name: "&c&nᴀᴅᴠᴀɴᴄᴇᴅ ʀᴜɴᴇ"
+    lore:
+      - "&8- &7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ &8-"
+category5:
+  material_display: "LIGHT_BLUE_STAINED_GLASS_PANE"
+  category_name: "ᴍᴀꜱᴛᴇʀ"
+  category_color: "&b&n" #use "&"
+  category_itemlore:
+    - "&7ᴍᴀꜱᴛᴇʀ enchants category"
+    - "&a80 xp"
+  cost-of-category: 80 #Use levels, but the equivalent in points will be removed.
+  rune:
+    material: "PAPER"
+    display-name: "&b&nᴍᴀꜱᴛᴇʀ ʀᴜɴᴇ"
+    lore:
+      - "&8- &7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ &8-"
+category6:
+  material_display: "WHITE_STAINED_GLASS_PANE"
+  category_name: "ᴇᴘɪᴄ"
+  category_color: "&f&n" #use "&"
+  category_itemlore:
+    - "&7ᴇᴘɪᴄ enchants category"
+    - "&a90 xp"
+  cost-of-category: 90 #Use levels, but the equivalent in points will be removed.
+  rune:
+    material: "PAPER"
+    display-name: "&f&nᴇᴘɪᴄ ʀᴜɴᴇ"
+    lore:
+      - "&8- &7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ &8-"

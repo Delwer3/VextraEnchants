@@ -1,0 +1,17 @@
+time: 24 #In hours
+enchant-list:
+  - "penetrator"
+  - "heavygunner"
+  - ""
+  - ""
+  - ""
+  - ""
+  - ""
+black-list-of-enchants:
+  - ""
+  - ""
+percent-to-fall: 50 #Can't go over 100% and 0%
+
+
+
+

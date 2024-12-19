@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="EdgeEnchants:jar">
+    <output-path>$PROJECT_DIR$/../Server/plugins</output-path>
+    <root id="archive" name="VextraEnchants.jar">
+      <element id="library" level="project" name="Maven: com.jeff_media:MorePersistentDataTypes:2.4.0" />
+      <element id="module-output" name="VextraEnchants" />
+    </root>
+  </artifact>
+</component>

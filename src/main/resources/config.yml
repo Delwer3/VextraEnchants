@@ -1,0 +1,39 @@
+enchant-item:
+  item-display: "PAPER"
+temporary-claim-item-2:
+  item-display: "YELLOW_SHULKER_BOX"
+  name-display: "&6Claim one rune!"
+  cost-lore-message: "&eThe cost of rune is: &c" #The cost is automatic 
+temporary-claim-item-1:
+  item-display: "BLUE_SHULKER_BOX"
+  name-display: "&9&nInformation"
+  lore:
+    - "&7The posible % &clost&7: &f"
+    - "&7The posible % &awon&7: &f"
+no-more-items-temporary-item:
+  item-display: "ENDER_CHEST"
+  name-display: "&cNo More Enchants!"
+temporary-temporizer-item:
+  item-display: "ENDER_CHEST"
+  name-display: "&cRemaining time"
+filler-article:
+  name-display: "&8@YouServerName"
+  item-display: "BLACK_STAINED_GLASS_PANE"
+temporary-enchant-category:
+  enable: true
+  cost-of-category: 120 #Use levels, but the equivalent in points will be removed.     
+  item-display: "ENDER_CHEST"
+  name-display: "&cTemporary Enchants"
+  won-or-lose-message: true
+runes:
+  temporary-rune:
+    item-display: "ORANGE_DYE"
+    name-display: "&6A+"
+    lore-display:
+      - "&7- &9Click to reclaim the enchant&7 -"
+messages:
+  player-no-xp: "&cYou don't have the total Xp"
+  won-rune-temporary: "&eYou won and you get the book&a: "
+  lose-rune-temporary: "&cYou lost and you get the book&4: "
+  cannot-be-applied: "&cYou cannot apply this enchantment to this item!"
+  

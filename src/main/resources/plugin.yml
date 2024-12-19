@@ -1,0 +1,14 @@
+main: org.EdgePlugins.EdgeEnchants
+version: 1.0.2
+name: VextraEnchants
+author: Vextra Studio
+api-version: 1.13
+commands:
+  vextraenchants:
+    description: Command of vextra enchants plugin
+    aliases:
+      - vextraenchantments
+      - ve
+      - venchants
+  enchanter:
+    description: Command open the enchanter

@@ -1,0 +1,391 @@
+refractor:
+  type: "damaged_by_entity"
+  applicable: "HELMET,CHESTPLATE,LEGGINGS,BOOTS"
+  name: "ʀᴇꜰʀᴀᴄᴛᴏʀ"
+  category: "ᴇᴘɪᴄ"
+  lore:
+    - "&7&l↯ &7ᴘᴏꜱꜱɪʙɪʟɪᴛʏ ᴏꜰ ʀᴇꜰʟᴇᴄᴛɪɴɢ"
+    - "&7&l↯ &7ᴛʜᴇ ᴅᴀᴍᴀɢᴇ ʀᴇᴄᴇɪᴠᴇᴅ"
+    - "&f&l⇆"
+    - "&7&l↯ &aᴄᴀɴ ʙᴇ ᴀᴘᴘʟɪᴇᴅ ᴛᴏ: &bHelmet, Chestplate, Leggins, Boots"
+  skills:
+    - 1:
+      cooldown: 40
+      chance: 10
+      effects:
+        - CANCEL_EVENT
+        - DAMAGE°%damage%° @Damager
+    - 2:
+      cooldown: 35
+      chance: 15
+      effects:
+        - CANCEL_EVENT
+        - DAMAGE°%damage%° @Damager
+    - 3:
+      cooldown: 30
+      chance: 20
+      effects:
+        - CANCEL_EVENT
+        - DAMAGE°%damage%° @Damager
+    - 4:
+      cooldown: 25
+      chance: 25
+      effects:
+        - CANCEL_EVENT
+        - DAMAGE°%damage%° @Damager
+    - 5:
+      cooldown: 20
+      chance: 30
+      effects:
+        - CANCEL_EVENT
+        - DAMAGE°%damage%° @Damager
+blinding:
+  type: "attack"
+  applicable: "HELMET,CHESTPLATE,LEGGINGS,BOOTS"
+  name: "ʙʟɪɴᴅɪɴɢ"
+  category: "ɪɴᴛᴇʀᴍᴇᴅɪᴀᴛᴇ"
+  lore:
+    - "&7&l↯ &7ᴄʜᴀɴᴄᴇ ᴛᴏ ʙʟɪɴᴅ ʏᴏᴜʀ ᴇɴᴇᴍʏ"
+    - "&f&l⇆"
+    - "&7&l↯ &aᴄᴀɴ ʙᴇ ᴀᴘᴘʟɪᴇᴅ ᴛᴏ: &bHelmet, Chestplate, Leggins, Boots"
+  skills:
+    - 1:
+      cooldown: 35
+      chance: 35
+      effects:
+        - SET_POTION°DARKNESS°100°%enchant_level%° @Damaged
+        - SENDMESSAGE°&cʙʟɪɴᴅ ɪ &7[%damager_name%]° @Damaged
+    - 2:
+      cooldown: 30
+      chance: 40
+      effects:
+        - SET_POTION°DARKNESS°150°%enchant_level%° @Damaged
+        - SENDMESSAGE°&c&lʙʟɪɴᴅ ɪɪ &7[%damager_name%]° @Damaged
+    - 3:
+      cooldown: 25
+      chance: 45
+      effects:
+        - SET_POTION°DARKNESS°200°%enchant_level%° @Damaged
+        - SENDMESSAGE°&cʙʟɪɴᴅ ɪɪɪ &7[%damager_name%]° @Damaged
+    - 4:
+      cooldown: 20
+      chance: 50
+      effects:
+        - SET_POTION°DARKNESS°250°%enchant_level%° @Damaged
+        - SENDMESSAGE°&cʙʟɪɴᴅ ɪᴠ &7[%damager_name%]° @Damaged
+mixer:
+  type: "attack"
+  applicable: "SWORDS,AXES"
+  name: "ᴍɪxᴇʀ"
+  category: "ᴍᴀꜱᴛᴇʀ"
+  lore:
+    - "&7&l↯ &7ᴄʜᴀɴᴄᴇ ᴛᴏ ᴅᴀᴍᴀɢᴇ ᴇɴᴇᴍɪᴇꜱ"
+    - "&7&l↯ &7ɴᴇᴀʀʙʏ"
+    - "&f&l⇆"
+    - "&7&l↯ &aᴄᴀɴ ʙᴇ ᴀᴘᴘʟɪᴇᴅ ᴛᴏ: &bSwords, Axes"
+  skills:
+    - 1:
+      cooldown: 10
+      chance: 35
+      effects:
+        - DAMAGE°1° @Radius{%enchant_level%:PLAYERS}
+    - 2:
+      cooldown: 7
+      chance: 45
+      effects:
+        - DAMAGE°3° @Radius{%enchant_level%:PLAYERS}
+    - 3:
+      cooldown: 5
+      chance: 55
+      effects:
+        - DAMAGE°5° @Radius{%enchant_level%:PLAYERS}
+basher:
+  type: "attack"
+  applicable: "SWORDS,AXES"
+  name: "ʙᴀꜱʜᴇʀ"
+  category: "ᴀᴅᴠᴀɴᴄᴇᴅ"
+  lore:
+    - "&7&l↯ &7ᴄʜᴀɴᴄᴇ ᴛᴏ ᴅᴇᴀʟ ᴀᴅᴅɪᴛɪᴏɴᴀʟ ᴅᴀᴍᴀɢᴇ ᴛᴏ ᴛʜᴇ ᴇɴᴇᴍʏ"
+    - "&f&l⇆"
+    - "&7&l↯ &aᴄᴀɴ ʙᴇ ᴀᴘᴘʟɪᴇᴅ ᴛᴏ: &bSwords, Axes"
+  skills:
+    - 1:
+      cooldown: 15
+      chance: 35
+      effects:
+        - DAMAGE°5° @Damaged
+    - 2:
+      cooldown: 13
+      chance: 45
+      effects:
+        - DAMAGE°10° @Damaged
+    - 3:
+      cooldown: 10
+      chance: 55
+      effects:
+        - DAMAGE°15° @Damaged
+
+electroshock:
+  type: "attack"
+  applicable: "SWORDS,AXES"
+  name: "ᴇʟᴇᴄᴛʀᴏꜱʜᴏᴄᴋ"
+  category: "ʙᴀꜱɪᴄ"
+  lore:
+    - "&7&l↯ &7ᴛʜʀᴏᴡ ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ʟɪɢʜᴛɴɪɴɢ"
+    - "&f&l⇆"
+    - "&7&l↯ &aᴄᴀɴ ʙᴇ ᴀᴘᴘʟɪᴇᴅ ᴛᴏ: &bSwords, Axes"
+  skills:
+    - 1:
+      cooldown: 20
+      chance: 10
+      effects:
+        - LIGHTNING_EFFECT° @Damaged
+        - DAMAGE°5° @Damaged
+    - 2:
+      cooldown: 15
+      chance: 15
+      effects:
+        - LIGHTNING_EFFECT° @Damaged
+        - DAMAGE°7° @Damaged
+    - 3:
+      cooldown: 10
+      chance: 20
+      effects:
+        - LIGHTNING_EFFECT° @Damaged
+        - DAMAGE°10° @Damaged
+resonant:
+  type: "attack_shoot_entity"
+  applicable: "BOW"
+  name: "ʀᴇꜱᴏɴᴀɴᴛ"
+  category: "ʙᴀꜱɪᴄ"
+  lore:
+    - "&7&l↯ &7ɪɴᴄʀᴇᴀꜱᴇꜱ ᴅᴀᴍᴀɢᴇ ᴅᴏɴᴇ"
+    - "&7&l↯ &7ᴛᴏᴡᴀʀᴅꜱ ᴍᴏʙꜱ"
+    - "&f&l⇆"
+    - "&7&l↯ &aᴄᴀɴ ʙᴇ ᴀᴘᴘʟɪᴇᴅ ᴛᴏ: &bBow"
+  skills:
+    - 1:
+      cooldown: 25
+      chance: 20
+      effects:
+        - AMPLIFY_DAMAGE°120° @Damager
+    - 2:
+      cooldown: 20
+      chance: 30
+      effects:
+        - AMPLIFY_DAMAGE°160° @Damager
+    - 3:
+      cooldown: 15
+      chance: 40
+      effects:
+        - AMPLIFY_DAMAGE°180° @Damager
+    - 4:
+      cooldown: 10
+      chance: 50
+      effects:
+        - AMPLIFY_DAMAGE°200° @Damager
+heavygunner:
+  type: "attack_shoot"
+  applicable: "BOW"
+  name: "&nʜᴇᴀᴠʏ ɢᴜɴɴᴇʀ"
+  category: "ᴀᴅᴠᴀɴᴄᴇᴅ"
+  lore:
+    - "&7&l↯ &7ᴄʜᴀɴᴄᴇ ᴏꜰ ᴇxᴘʟᴏᴅɪɴɢ ᴏɴ ɪᴍᴘᴀᴄᴛ"
+    - "&7&l↯ &7ᴀɴᴅ ᴅᴀᴍᴀɢᴇ ᴇɴᴇᴍʏ"
+    - "&f&l⇆"
+    - "&7&l↯ &aᴄᴀɴ ʙᴇ ᴀᴘᴘʟɪᴇᴅ ᴛᴏ: &bBow"
+  skills:
+    - 1:
+      cooldown: 20
+      chance: 20
+      effects:
+        - EXPLOSION_EFFECT°1° @Damaged
+    - 2:
+      cooldown: 15
+      chance: 30
+      effects:
+        - EXPLOSION_EFFECT°2° @Damaged
+    - 3:
+      cooldown: 10
+      chance: 40
+      effects:
+        - EXPLOSION_EFFECT°3° @Damaged
+    - 4:
+      cooldown: 10
+      chance: 50
+      effects:
+        - EXPLOSION_EFFECT°4° @Damaged
+penetrator:
+  type: "attack_shoot_player"
+  applicable: "BOW"
+  name: "ᴘᴇɴᴇᴛʀᴀᴛᴏʀ"
+  category: "ꜱɪᴍᴘʟᴇ"
+  lore:
+    - "&7&l↯ &7ɪɴᴄʀᴇᴀꜱᴇꜱ ᴅᴀᴍᴀɢᴇ ᴅᴏɴᴇ"
+    - "&7&l↯ &7ᴛᴏᴡᴀʀᴅꜱ ᴘʟᴀʏᴇʀꜱ"
+    - "&f&l⇆"
+    - "&7&l↯ &aᴄᴀɴ ʙᴇ ᴀᴘᴘʟɪᴇᴅ ᴛᴏ: &bBow"
+  skills:
+    - 1:
+      cooldown: 10
+      chance: 20
+      effects:
+        - AMPLIFY_DAMAGE°120° @Damager
+    - 2:
+      cooldown: 8
+      chance: 40
+      effects:
+        - AMPLIFY_DAMAGE°140° @Damager
+    - 3:
+      cooldown: 6
+      chance: 60
+      effects:
+        - AMPLIFY_DAMAGE°160° @Damager
+    - 4:
+      cooldown: 4
+      chance: 80
+      effects:
+        - AMPLIFY_DAMAGE°180° @Damager
+ironfist:
+  type: "attack"
+  applicable: "SWORDS,AXES,TRIDENT"
+  name: "ɪʀᴏɴ ꜰɪꜱᴛ"
+  category: "ᴍᴀꜱᴛᴇʀ"
+  lore:
+    - "&7&l↯ &7ᴄʜᴀɴᴄᴇ ᴏꜰ ɢᴀɪɴɪɴɢ ꜱᴛʀᴇɴɢᴛʜ ᴡʜᴇɴ ᴀᴛᴛᴀᴄᴋɪɴɢ"
+    - "&f&l⇆"
+    - "&7&l↯ &aᴄᴀɴ ʙᴇ ᴀᴘᴘʟɪᴇᴅ ᴛᴏ: &bSwords, Axes, Trident"
+  skills:
+    - 1:
+      cooldown: 5
+      chance: 10
+      effects:
+        - SET_POTION°STRENGTH°200°%enchant_level%° @Damager
+        - PLAY_SOUND°entity.evoker.prepare_summon°0.5°0.5° @Damaged
+        - PLAY_SOUND°entity.evoker.prepare_summon°0.5°0.5° @Damager
+    - 2:
+      cooldown: 10
+      chance: 20
+      effects:
+        - SET_POTION°STRENGTH°250°%enchant_level%° @Damager
+        - PLAY_SOUND°entity.evoker.prepare_summon°0.5°0.5° @Damaged
+        - PLAY_SOUND°entity.evoker.prepare_summon°0.5°0.5° @Damager
+    - 3:
+      cooldown: 15
+      chance: 30
+      effects:
+        - SET_POTION°STRENGTH°300°%enchant_level%° @Damager
+        - PLAY_SOUND°entity.evoker.prepare_summon°0.5°0.5° @Damaged
+        - PLAY_SOUND°entity.evoker.prepare_summon°0.5°0.5° @Damager
+    - 4:
+      cooldown: 20
+      chance: 35
+      effects:
+        - SET_POTION°STRENGTH°350°%enchant_level%° @Damager
+        - PLAY_SOUND°entity.evoker.prepare_summon°0.5°0.5° @Damaged
+        - PLAY_SOUND°entity.evoker.prepare_summon°0.5°0.5° @Damager
+    - 5:
+      cooldown: 25
+      chance: 40
+      effects:
+        - SET_POTION°HARM°400°%enchant_level%° @Damager
+        - PLAY_SOUND°entity.evoker.prepare_summon°1°1° @Damaged
+        - PLAY_SOUND°entity.evoker.prepare_summon°1°1° @Damager
+chamber:
+  type: "attack"
+  applicable: "SWORDS"
+  name: "ᴄʜᴀᴍʙᴇʀ"
+  category: "ɪɴᴛᴇʀᴍᴇᴅɪᴀᴛᴇ"
+  lore:
+    - "&7&l↯ &7ᴅᴇᴀʟꜱ ᴅᴀᴍᴀɢᴇ ᴇǫᴜᴀʟ ᴛᴏ ᴛʜᴇ ᴇɴᴇᴍʏ'ꜱ"
+    - "&7&l↯ &7ᴅᴀᴍᴀɢᴇ ᴅᴇᴀʟᴛ ᴛᴏ ᴛʜᴇ ᴇɴᴇᴍʏ"
+    - "&f&l⇆"
+    - "&7&l↯ &aᴄᴀɴ ʙᴇ ᴀᴘᴘʟɪᴇᴅ ᴛᴏ: &bSwords"
+  skills:
+    - 1:
+      cooldown: 20
+      chance: 10
+      effects:
+        - DAMAGE°%damage%° @Damaged
+        - SENDMESSAGE°&e [%damager_name%] &eᴀᴄᴛɪᴠᴇᴄᴛᴇᴅ &5&lᴄʜᴀᴍʙᴇʀ ɪ &7(&c¯%damage%&7)&f° @Damaged
+    - 2:
+      cooldown: 16
+      chance: 15
+      effects:
+        - DAMAGE°%damage%° @Damaged
+        - SENDMESSAGE°&e [%damager_name%] &eᴀᴄᴛɪᴠᴇᴄᴛᴇᴅ &5&lᴄʜᴀᴍʙᴇʀ ɪɪ &7(&c¯%damage%&7)&f° @Damaged
+    - 3:
+      cooldown: 14
+      chance: 20
+      effects:
+        - DAMAGE°%damage%° @Damaged
+        - SENDMESSAGE°&e [%damager_name%] &eᴀᴄᴛɪᴠᴇᴄᴛᴇᴅ &5&lᴄʜᴀᴍʙᴇʀ ɪɪɪ &7(&c¯%damage%&7)&f° @Damaged
+    - 4:
+      cooldown: 12
+      chance: 25
+      effects:
+        - DAMAGE°%damage%° @Damaged
+        - SENDMESSAGE°&e [%damager_name%] &eᴀᴄᴛɪᴠᴇᴄᴛᴇᴅ &5&lᴄʜᴀᴍʙᴇʀ ɪᴠ &7(&c¯%damage%&7)&f° @Damaged
+recovery:
+  type: "damaged_by_entity"
+  applicable: "HELMETS"
+  name: "ʀᴇᴄᴏᴠᴇʀʏ"
+  category: "ᴇᴘɪᴄ"
+  lore:
+    - "&7&l↯ &7ʜᴇᴀʟꜱ ᴀ ᴘᴏʀᴛɪᴏɴ ᴏꜰ ᴛʜᴇ ᴅᴀᴍᴀɢᴇ ᴅᴏɴᴇ"
+    - "&7&l↯ &7ᴅᴇᴘᴇɴᴅɪɴɢ ᴏɴ ᴛʜᴇ ʟᴇᴠᴇʟ ᴏꜰ ᴛʜᴇ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ"
+    - "&f&l⇆"
+    - "&7&l↯ &aᴄᴀɴ ʙᴇ ᴀᴘᴘʟɪᴇᴅ ᴛᴏ: &bHelmets"
+  skills:
+    - 1:
+      cooldown: 20
+      chance: 10
+      effects:
+        - ADD_HEALTH°%enchant_level%° @Damaged
+        - SENDMESSAGE° &f<&5ʀᴇᴄᴏᴠᴇʀʏ&f> &8(&e+%enchant_level%&8)° @Damaged
+    - 2:
+      cooldown: 16
+      chance: 15
+      effects:
+        - ADD_HEALTH°%enchant_level%° @Damaged
+        - SENDMESSAGE° &f<&5ʀᴇᴄᴏᴠᴇʀʏ&f> &8(&e+%enchant_level%&8)° @Damaged
+    - 3:
+      cooldown: 14
+      chance: 20
+      effects:
+        - ADD_HEALTH°%enchant_level%° @Damaged
+        - SENDMESSAGE° &f<&5ʀᴇᴄᴏᴠᴇʀʏ&f> &8(&e+%enchant_level%&8)° @Damaged
+    - 4:
+      cooldown: 0
+      chance: 100
+      effects:
+        - ADD_HEALTH°%enchant_level%° @Damaged
+        - SENDMESSAGE° &f<&5ʀᴇᴄᴏᴠᴇʀʏ&f> &8(&e+%enchant_level%&8)° @Damaged
+buff:
+  type: "damaged_by_entity"
+  applicable: "leggings"
+  name: "ʙᴜꜰꜰ"
+  category: "ᴇᴘɪᴄ"
+  lore:
+    - "&7&l↯ &7ʏᴏᴜ ʀᴇᴄᴇɪᴠᴇ ɢᴏᴏᴅ ᴇꜰꜰᴇᴄᴛꜱ ɪɴ ʏᴏᴜʀ ꜰᴀᴠᴏʀ"
+    - "&f&l⇆"
+    - "&7&l↯ &aᴄᴀɴ ʙᴇ ᴀᴘᴘʟɪᴇᴅ ᴛᴏ: &bLeggins"
+  skills:
+    - 1:
+      cooldown: 40
+      chance: 15
+      effects:
+        - SET_POTION°ABSORPTION°50°%enchant_level%° @Damaged
+        - SET_POTION°REGENERATION°50°%enchant_level%° @Damaged
+        - SET_POTION°NIGHT_VISION°50°%enchant_level%° @Damaged
+        - PLAY_SOUND°BLOCK_RESPAWN_ANCHOR_SET_SPAWN°1°1° @Damaged
+        - PLAY_SOUND°BLOCK_RESPAWN_ANCHOR_SET_SPAWN°1°1° @Damager
+    - 2:
+      cooldown: 30
+      chance: 30
+      effects:
+        - SET_POTION°ABSORPTION°150°%enchant_level%° @Damaged
+        - SET_POTION°REGENERATION°150°%enchant_level%° @Damaged
+        - SET_POTION°NIGHT_VISION°150°%enchant_level%° @Damaged
+        - PLAY_SOUND°BLOCK_RESPAWN_ANCHOR_SET_SPAWN°1°1° @Damaged
+        - PLAY_SOUND°BLOCK_RESPAWN_ANCHOR_SET_SPAWN°1°1° @Damager

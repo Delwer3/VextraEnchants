@@ -1,0 +1,5 @@
+List of Effects:
+ADD_HEALTH / use: ADD_HEALTH°[amount] ° target
+CONSOLE_COMMAND/ use: CONSOLE_COMMAND°[command]
+DAMAGE / use: DAMAGE[amount] ° target
+DURABILIDAY
