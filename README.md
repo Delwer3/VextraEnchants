@@ -29,3 +29,10 @@ Whether you're a server administrator looking to spice up your gameplay or a pla
 If you have any questions or feedback, feel free to reach out. Your support and suggestions help us make Vextra Enchantments even better.
 
 Join our Discord community: [https://discord.gg/bmRdSWfX](https://discord.gg/bmRdSWfX)
+
+---
+
+## ❤️ Support the Project
+If you enjoy using Vextra Enchantments and would like to support its development, consider making a donation. Your contribution helps keep the project alive and growing!
+
+[Donate via PayPal](https://www.paypal.com/donate/?hosted_button_id=CJKJCFY2NZWRA)
